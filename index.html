@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="US123456US 的个人主页与项目展示，基于 GitHub Pages 托管。"
+    />
+    <title>US123456US · 个人主页</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <div class="brand">
+          <div class="brand-mark">U</div>
+          <span>US123456US</span>
+        </div>
+        <nav class="nav-links" aria-label="主导航">
+          <a href="#about">关于</a>
+          <a href="#projects">项目</a>
+          <a href="#contact">联系</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <p class="eyebrow">GitHub Pages · 个人站点</p>
+            <h1>你好，我是 <span>US123456US</span></h1>
+            <p class="lead">
+              我是一个热爱编程、喜欢构建实用产品的人。这里是我的个人主页，
+              用来展示项目、技能与联系方式。
+            </p>
+            <div class="cta-row">
+              <a class="button primary" href="#projects">查看项目</a>
+              <a class="button secondary" href="#contact">联系我</a>
+            </div>
+            <ul class="mini-stats">
+              <li><strong>6+</strong><span>项目</span></li>
+              <li><strong>1</strong><span>站点</span></li>
+              <li><strong>24/7</strong><span>学习</span></li>
+            </ul>
+          </div>
+
+          <div class="hero-card" aria-label="个人简介卡片">
+            <div class="avatar-ring">
+              <div class="avatar">U</div>
+            </div>
+            <h2>个人简介</h2>
+            <p>
+              关注 Web 开发、后端接口、自动化工具与网站优化。喜欢把想法
+              变成可用的产品，并持续迭代。
+            </p>
+            <div class="chip-row">
+              <span>JavaScript</span>
+              <span>Node.js</span>
+              <span>GitHub</span>
+              <span>Web</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container two-col">
+          <div class="card">
+            <p class="section-tag">关于我</p>
+            <h3>做事认真，擅长把想法落地成可用功能。</h3>
+            <p>
+              这里可以写你的技术栈、工作方向、职责范围、兴趣爱好和价值观。
+              这是一个通用模板，你可以直接替换成自己的真实介绍。
+            </p>
+          </div>
+
+          <div class="card">
+            <p class="section-tag">技能</p>
+            <div class="skill-list">
+              <span>前端开发</span>
+              <span>后端开发</span>
+              <span>自动化</span>
+              <span>部署上线</span>
+              <span>API 设计</span>
+              <span>维护优化</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section alt">
+        <div class="container">
+          <div class="section-head">
+            <p class="section-tag">项目展示</p>
+            <h3>我做过的代表项目</h3>
+          </div>
+
+          <div class="projects-grid">
+            <article class="project-card">
+              <div class="project-top">
+                <span class="dot"></span>
+                <span class="project-tag">Web</span>
+              </div>
+              <h4>项目一：个人主页</h4>
+              <p>一个基于 GitHub Pages 的基础个人站点，用于展示个人信息和项目。</p>
+              <a href="#" target="_blank" rel="noreferrer">查看详情 →</a>
+            </article>
+
+            <article class="project-card">
+              <div class="project-top">
+                <span class="dot"></span>
+                <span class="project-tag">API</span>
+              </div>
+              <h4>项目二：接口服务</h4>
+              <p>用于管理数据���处理业务逻辑并对接前端或第三方系统的后端服务。</p>
+              <a href="#" target="_blank" rel="noreferrer">查看详情 →</a>
+            </article>
+
+            <article class="project-card">
+              <div class="project-top">
+                <span class="dot"></span>
+                <span class="project-tag">Tool</span>
+              </div>
+              <h4>项目三：自动化脚本</h4>
+              <p>减少重复劳动，提升效率的脚本与工具，适合批量处理日常开发工作。</p>
+              <a href="#" target="_blank" rel="noreferrer">查看详情 →</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container contact-wrap">
+          <div class="contact-card">
+            <p class="section-tag">联系我</p>
+            <h3>如果你愿意交流，可以通过下面方式联系我。</h3>
+            <div class="contact-links">
+              <a href="https://github.com/US123456US" target="_blank" rel="noreferrer">GitHub</a>
+              <a href="mailto:your-email@example.com">邮箱</a>
+            </div>
+          </div>
+
+          <form class="message-form" id="contact-form">
+            <label>
+              <span>姓名</span>
+              <input type="text" id="name" placeholder="请输入你的名字" required />
+            </label>
+            <label>
+              <span>邮箱</span>
+              <input type="email" id="email" placeholder="请输入你的邮箱" required />
+            </label>
+            <label>
+              <span>留言</span>
+              <textarea id="message" rows="4" placeholder="你好，我想了解更多..." required></textarea>
+            </label>
+            <button type="submit" class="button primary">发送消息</button>
+            <p id="form-status" class="form-status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> US123456US</p>
+        <p>Built with GitHub Pages</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
