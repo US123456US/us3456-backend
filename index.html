@@ -1,232 +1,49 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="US123456US 的作品集主页" />
-    <title>US123456US | Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header class="site-header">
-      <div class="container nav-wrap">
-        <a href="#top" class="logo" aria-label="首页">
-          <span class="logo-badge">U</span>
-          <span>US123456US</span>
-        </a>
-
-        <nav class="nav" aria-label="主导航">
-          <a href="#about">关于</a>
-          <a href="#projects">项目</a>
-          <a href="#experience">经历</a>
-          <a href="#contact">联系</a>
-        </nav>
-      </div>
-    </header>
-
-    <main id="top">
-      <section class="hero">
-        <div class="container hero-grid">
-          <div class="hero-copy">
-            <p class="eyebrow">Portfolio / Developer</p>
-            <h1>你好，我是 <span>US123456US</span></h1>
-            <p class="lead">
-              我是一名热爱构建产品与解决问题的开发者，专注于 Web 开发、
-              交互设计和可用性优化。我喜欢把想法快速落地成真实成果。
-            </p>
-
-            <div class="cta-row">
-              <a class="button primary" href="#projects">查看作品</a>
-              <a class="button ghost" href="#contact">联系我</a>
-            </div>
-
-            <ul class="mini-stats">
-              <li>
-                <strong>3+</strong>
-                <span>年经验</span>
-              </li>
-              <li>
-                <strong>8</strong>
-                <span>项目</span>
-              </li>
-              <li>
-                <strong>100%</strong>
-                <span>热爱</span>
-              </li>
-            </ul>
-          </div>
-
-          <div class="profile-card">
-            <div class="avatar-wrap">
-              <div class="avatar">U</div>
-            </div>
-            <div class="profile-meta">
-              <p class="self-tag">Available for Work</p>
-              <h2>US123456US</h2>
-              <p>Frontend / Full Stack / Product Builder</p>
-            </div>
-            <div class="chips">
-              <span>JavaScript</span>
-              <span>Node.js</span>
-              <span>React</span>
-              <span>GitHub</span>
-              <span>UI/UX</span>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="about" class="section">
-        <div class="container section-header">
-          <p class="eyebrow dark">About</p>
-          <h2>关于我</h2>
-        </div>
-
-        <div class="container two-col">
-          <article class="card">
-            <h3>我的方向</h3>
-            <p>
-              我喜欢做有价值的产品，关注体验、效率和可维护性。无论是前端页面，
-              还是后端接口，我都重视实用性与长期可扩展性。
-            </p>
-          </article>
-
-          <article class="card">
-            <h3>我的能力</h3>
-            <div class="tags">
-              <span>前端开发</span>
-              <span>页面交互</span>
-              <span>API 开发</span>
-              <span>GitHub</span>
-              <span>自动化</span>
-              <span>项目部署</span>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <section id="projects" class="section alt">
-        <div class="container section-header">
-          <p class="eyebrow dark">Projects</p>
-          <h2>代表作品</h2>
-        </div>
-
-        <div class="container projects-grid">
-          <article class="project-card">
-            <div class="project-top">
-              <span class="status-dot"></span>
-              <span class="project-type">Web</span>
-            </div>
-            <h3>Portfolio Site</h3>
-            <p>
-              一个简洁且现代感的个人主页，适合展示作品、介绍自己与联系渠道。
-            </p>
-            <a href="#">查看案例 →</a>
-          </article>
-
-          <article class="project-card">
-            <div class="project-top">
-              <span class="status-dot"></span>
-              <span class="project-type">Product</span>
-            </div>
-            <h3>业务系统</h3>
-            <p>
-              面向实际业务场景设计的后台管理与流程工具，聚焦提升团队效率与数据可视化。
-            </p>
-            <a href="#">查看案例 →</a>
-          </article>
-
-          <article class="project-card">
-            <div class="project-top">
-              <span class="status-dot"></span>
-              <span class="project-type">Automation</span>
-            </div>
-            <h3>自动化脚本</h3>
-            <p>
-              结合业务需求开发的脚本工具，帮助减少重复劳动，提高作业效率。
-            </p>
-            <a href="#">查看案例 →</a>
-          </article>
-        </div>
-      </section>
-
-      <section id="experience" class="section">
-        <div class="container section-header">
-          <p class="eyebrow dark">Experience</p>
-          <h2>工作与经历</h2>
-        </div>
-
-        <div class="container timeline">
-          <div class="timeline-item">
-            <div class="time">2024 - 现在</div>
-            <div class="timeline-content">
-              <h3>独立开发者 / Freelance</h3>
-              <p>负责网站搭建、前端与原型设计，帮助实现个人想法与产品落地。</p>
-            </div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="time">2022 - 2024</div>
-            <div class="timeline-content">
-              <h3>前端开发 / 技术实践</h3>
-              <p>参与界面实现、组件封装、需求对接和项目部署，重视体验与工程效率。</p>
-            </div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="time">2020 - 2022</div>
-            <div class="timeline-content">
-              <h3>学习与技术积累</h3>
-              <p>持续学习前端、后端和工程实践，逐步建立完整的开发认知与作品能力。</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="contact" class="section contact-section">
-        <div class="container contact-grid">
-          <div class="contact-copy">
-            <p class="eyebrow dark">Contact</p>
-            <h2>如果你愿意合作，欢迎联系我</h2>
-            <p>
-              我乐于接触新项目、探索新方向，也欢迎交流技术、产品和创业相关话题。
-            </p>
-            <div class="contact-links">
-              <a href="https://github.com/US123456US" target="_blank" rel="noreferrer">GitHub</a>
-              <a href="mailto:your-email@example.com">Email</a>
-            </div>
-          </div>
-
-          <form class="contact-form" id="contact-form">
-            <label>
-              <span>姓名</span>
-              <input type="text" id="name" placeholder="请输入你的名字" required />
-            </label>
-            <label>
-              <span>邮箱</span>
-              <input type="email" id="email" placeholder="请输入你的邮箱" required />
-            </label>
-            <label>
-              <span>留言</span>
-              <textarea id="message" rows="4" placeholder="你好，我想了解更多..." required></textarea>
-            </label>
-            <button type="submit" class="button primary">发送消息</button>
-            <p id="form-status" class="form-status" aria-live="polite"></p>
-          </form>
-        </div>
-      </section>
-    </main>
-
-    <footer class="site-footer">
-      <div class="container footer-wrap">
-        <p>© <span id="year"></span> US123456US</p>
-        <p>Built with GitHub Pages</p>
-      </div>
-    </footer>
-
-    <script src="script.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>US123456US</title>
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+    .card {
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.15);
+      border-radius: 18px;
+      padding: 30px 24px;
+      text-align: center;
+      max-width: 600px;
+    }
+    h1 { margin-bottom: 12px; }
+    p { color: #dbeafe; line-height: 1.8; }
+    button {
+      background: linear-gradient(135deg, #8b5cf6, #38bdf8);
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 10px;
+      font-weight: 700;
+      cursor: pointer;
+      margin-top: 12px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>US123456US</h1>
+    <p>欢迎来到我的个人主页。</p>
+    <p>这是一个 GitHub Pages 站点，已成功部署。</p>
+    <button onclick="document.getElementById('msg').textContent='欢迎访问我的主页！'">点击我</button>
+    <p id="msg"></p>
+  </div>
+</body>
 </html>
