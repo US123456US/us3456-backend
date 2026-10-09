@@ -1,9 +1,9 @@
 document.getElementById('year').textContent = new Date().getFullYear();
 
-const form = document.getElementById('contact-form');
+const contactForm = document.getElementById('contact-form');
 const status = document.getElementById('form-status');
 
-form.addEventListener('submit', function (event) {
+contactForm.addEventListener('submit', function (event) {
   event.preventDefault();
 
   const name = document.getElementById('name').value.trim();
@@ -15,6 +15,6 @@ form.addEventListener('submit', function (event) {
     return;
   }
 
-  status.textContent = '消息已收到（这是一个前端示例页面，未发送到真实后端）。';
-  form.reset();
+  status.textContent = '消息已收到（示例表单，不会真正发送邮件）。';
+  contactForm.reset();
 });
